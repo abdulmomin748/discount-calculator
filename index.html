@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <h1 class="text-5xl text-center font-bold bg bg-amber-500 text-white pt-2.5 pb-2.5" style="padding-bottom: 15px;">Discount Calculator</h1>
+    <div class="discount-cntlr w-10/12 mx-auto" style="height:50vh;">
+        <div class="" style="max-width: 1000px; margin: auto;">
+            <img src="img.png" alt="">
+        </div>
+        <div class="flex items-center">
+            <h6 class="text-3xl font-medium" id="pp">Total Price: <span id="set-user-price">00</span>$</h6>
+            <h6 class="ml-10 text-xl font-medium ">After <span class="bg-amber-500 text-white">(30%)</span> Discount Price: <span id="discount-price">00</span>$</h6>
+            <input id="input-user-price" class="placeholder:text-slate-400 border-2 px-5 py-5 border-yellow-400 font-medium ml-5" type="text" name="" placeholder="Enter Your Price">
+            <input id="coupon-code" class="placeholder:text-slate-400 border-2 px-5 py-5 border-yellow-400 font-medium ml-5" type="text" name="" placeholder="Pick Your Coupon Code">
+            <button id="apply" class="bg-amber-500 font-medium p-5 px-12 text-xl text-white ml-5 hover:bg-fuchsia-600 hover:ring-sky-500">Apply</button>
+        </div>
+    </div>
+    <script src="discount-cal.js"></script>
+</body>
+</html>
